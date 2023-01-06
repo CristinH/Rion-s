@@ -1,0 +1,341 @@
+
+/*------------CSS Reset------------*/
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+/*-----------Global styles---------*/
+
+body, html {
+    height: 100%;
+}
+
+.content-wrap {
+    max-width: 800px;
+    width: 85%;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+h1 {
+    font-weight: 400;
+    padding: 70px;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 4em;
+    font-family: 'Merienda', 'Arial', cursive;
+}
+
+.h2 {
+    font-weight: 300;
+    padding: 10px;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Merienda', 'Arial', cursive; 
+}
+
+/* -----------Navbar section--------- */
+
+.topnav {
+    background-color: rgba(0, 0, 0, .5);
+    overflow: hidden;
+}
+
+.topnav:hover {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: all ease 0.5s;
+    font-family: 'Merienda', 'Arial', cursive;
+}
+  
+.topnav a:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+}
+
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/*-----------Header section-----------*/
+
+.head {
+    background-color: black;
+    margin: auto;
+}
+
+.head-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*-----------Menu section-------------*/
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.flex-item>* {
+    flex: 1 1 500px;
+}
+
+.card {
+    padding: 20px;
+    border: 2px solid rgb(200, 200, 200);
+    border-radius: 10px;
+}
+
+.menu{
+    background-color: black;
+    margin: auto;
+    padding-bottom: 10%;
+}
+
+/*------------- About section------------*/
+
+.about {
+    background-color: rgb(112, 55, 55);
+    margin: auto;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1%;
+    width: 70%;
+}
+
+.about-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+}
+
+.about-container {
+    width: 80%;
+    margin: 0px auto;
+}
+
+.about-container img {
+    float: left;
+    margin: 10px;
+}
+
+.about-container p {
+    font-family: 'Merienda', cursive;
+    font-weight: 300;
+    text-align: justify;
+    color: whitesmoke;
+    font-size: 1.2em;
+}
+
+.about-h1 {
+    font-weight: 400;
+    padding: 30px;
+    color: whitesmoke;
+    text-align: left;
+    font-size: 3em;
+    font-family: 'Merienda', 'Arial', cursive; 
+}
+
+.orar-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 3%;
+}
+
+th, td {
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+    padding-right: 50px;
+    text-align: left;
+}
+
+/*------------- Contact section------------*/
+
+.contact{
+    background-color: #607d8b;
+    margin: auto;
+    padding-bottom: 10%;
+    display: block;
+}
+
+.contact-text {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5%;
+    width: 80%;
+    margin: 0px auto;
+    font-family: 'Merienda', cursive;
+    font-weight: 300;
+    text-align: justify;
+    color: whitesmoke;
+    font-size: 1.2em;
+}
+
+/* Style inputs, select elements and textareas */
+
+input[type=text], select, textarea{
+    width: 70%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+  
+  /* Style the label to display next to the inputs */
+label {
+    padding: 1px 1px 1px 0;
+    display: inline-block;
+    font-family: 'Merienda', cursive;
+    color: whitesmoke;
+}
+  
+  /* Style the submit button */
+input[type=submit] {
+    background-color: rgb(112, 55, 55, 0.7);
+    color: white;
+    padding: 12px 20px;
+    margin-left: 10%;
+    margin-top: 1%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    font-family: 'Merienda', cursive;
+    max-width: 25%;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(112, 55, 55, 1); 
+}
+  
+  /* Style the container */
+.contact-container {
+    border-radius: 5px;
+    background-color: #607d8b;
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20%;
+}
+  
+  /* Floating column for labels: 25% width */
+.col-25 {
+    float: left;
+    width: 7%;
+    margin-top: 6px;
+}
+  
+  /* Floating column for inputs: 75% width */
+.col-75 {
+    float: center;
+    width: 75%;
+    margin-top: 6px;
+    padding-left: 10%;
+}
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+@media screen and (max-width: 750px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+}
+
+/* ---------- Footer section ----------- */
+.footer {
+    background-color: black;
+    justify-content: center;
+    /* padding-bottom: 3%; */
+}
+
+.footer h1 {
+    font-weight: 400;
+    padding: 30px;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 4em;
+    font-family: 'Merienda', 'Arial', cursive;
+}
+
+.footer p {
+    font-family: 'Merienda', cursive;
+    font-weight: 300;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 1em;
+}
+
+ /* -------------------------------- */
+
+ @media screen and (max-width:750px) {
+    h1 {
+        font-size: 2.5em;
+    }
+
+    .h2 {
+        font-size: 1em;
+    }
+
+    .topnav a {
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+
+    .about-container p {
+        font-size: 1em;
+    }
+
+    .contact-text {
+        font-size: 1em;
+    }
+
+    .footer h1 {
+        padding: 30px;
+        font-size: 2.5em;
+    }
+
+    .about-h1 {
+        padding: 30px;
+        font-size: 3em;
+    }
+
+ }

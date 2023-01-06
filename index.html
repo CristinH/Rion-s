@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rion's</title>
+    <style> @import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap'); </style>
+    <style> @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300&display=swap'); </style>
+</head>
+<body>
+
+    <!-- -------Header section------- -->
+    <section class="head" id="home">
+        <div class="container">
+            <div class="topnav sticky">
+                <a class="active" href="#home">Acasă</a>
+                <a href="#menu">Meniu</a>
+                <a href="#about">Despre</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+        <div class="head-container">
+            <img src="images/14a-full.jpg" alt="salami sandwich" class="about-center">
+        </div>
+    </section>
+
+    <!-- ----------Menu section-------- -->
+
+    <section id="menu">   
+        <div class="menu">
+            <h1>Meniu</h1>
+            <div class="flex-container">
+                <div class="flex-item card">
+                    <img src="images/menu-1.jpg" alt="menu-1">
+                </div>
+                <div class="flex-item card">
+                    <img src="images/menu-2.jpg" alt="menu-2">
+                </div>
+                <div class="flex-item card">
+                    <img src="images/menu-3.jpg" alt="menu-3">
+                </div>
+                <div class="flex-item card">
+                    <img src="images/menu-4.jpg" alt="menu-4">
+                </div>
+                <div class="flex-item card">
+                    <img src="images/menu-5.jpg" alt="menu-5">
+                </div>
+                <div class="flex-item card">
+                    <img src="images/menu-6.jpg" alt="menu-6">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ---------- About section ---------- -->
+    
+    <section id="about">
+        <div class="about">
+            <h1>Despre noi</h1>
+            <div class="about-container">
+                <img src="images/mona.png" alt="mona" width="15%">
+                <p>
+                    Sunt <b>Mona Larion</b> şi sunt negustor de Traian!
+                </p>
+                <br>
+                <p>
+                    Am devenit antreprenor în urmă cu doi ani, când m-am hotărât să deschid propria afacere. Așa a apărut <b>Rion's</b>, un mix concept între bistro şi street food, un loc primitor unde totul este făcut cu multă muncă, pasiune, responsabilitate şi drag pentru oameni.
+                </p>
+                <br>
+                <p>
+                    Am cucerit clienţii cu burgerul de vită, Burger Rock's, aşa cum ne place să-l denumim, însă meniul nostru este destul de variat. Salatele sunt foarte gustoase, mai ales cea cu piept de pui, iar supa cremă mai tot timpul este prea puţină. Cel mai tare ne mândrim cu  ciocolata de casă făcută de noi, după o reţetă veche, pe care o avem de la mama soţului meu. Nu pot să descriu cât este de bună.
+                </p>
+                <br>
+                <p>
+                    Vă aşteptăm să ne cunoasteţi!
+                </p>
+                <br>
+                <br>
+            </div>
+            <img src="images/25.jpg" alt="bucatarie" class="center">
+            <div class="orar-container">
+                <table>
+                    <tr class="about-h1">
+                      <th>Orar</th>
+                    </tr>
+                    <tr class="h2">
+                      <td>Luni & Marți: 09:00 - 20:00</td>
+                      <td>Vineri: 09:00 - 22:00</td>
+                    </tr>
+                    <tr class="h2">
+                      <td>Miercuri: 09:00 - 22:00</td>
+                      <td>Sâmbătă: 09:00 - 22:00</td>
+                    </tr>
+                    <tr class="h2">
+                        <td>Joi: 09:00 - 22:00</td>
+                        <td>Duminică: Închis</td>
+                      </tr>
+                </table>
+            
+            </div>
+            <img src="images/1.jpg" alt="salami sandwich" class="about-center">
+        </div>
+    </section>
+
+     <!-- -------- Contact section ---------  -->
+    
+    <section id="contact">
+        <div class="contact">
+            <h1>Contact</h1>
+                <div class="contact-text">
+                    <p>Ne găsiți în Piața Traian, nr. 6, Timișoara. Oferim servicii de catering pentru evenimente mari si mici.</p>
+                    <br>
+                    <p>Pentru comenzi puteți completa formularul de mai jos sau ne puteti suna la <b>0741 049 049</b></p>
+                    <br>
+                </div>
+                <div class="contact-container">
+                    <form>
+                        <div class="row">
+                            <div class="col-25">
+                            <label for="fname"><b>Nume</b></label>
+                            </div>
+                            <div class="col-75">
+                            <input type="text" id="fname" name="firstname" placeholder="Nume.." required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                            <label for="lname"><b>Prenume</b></label>
+                            </div>
+                            <div class="col-75">
+                            <input type="text" id="lname" name="lastname" placeholder="Prenume.." required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                            <label for="email"><b>Email</b></label>
+                            </div>
+                            <div class="col-75">
+                            <input type="text" id="email" name="email" placeholder="escu@exemplu.com.." required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                            <label for="subject"><b>Subiect</b></label>
+                            </div>
+                            <div class="col-75">
+                            <textarea id="subject" name="subject" placeholder="..." style="height:200px"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <input type="submit" value="Submit">
+                        </div>
+                    </form>
+                </div>
+        </div>
+    </section>
+
+        <!-- ----------Footer section--------- -->
+
+    <section class="footer">
+        <footer>
+            <div>
+                <h1>Vă așteptăm cu drag!</h2>
+                <p>&copy; Copyright 2023 Cristin Hacichian</p>
+                <br>
+                <br>
+                <br>
+        </footer>
+    </section>
+</body>
+</html>
