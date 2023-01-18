@@ -37,6 +37,24 @@ h1 {
     font-family: 'Merienda', 'Arial', cursive; 
 }
 
+h5 {
+    font-weight: 300;
+    padding: 5px;
+    color: whitesmoke;
+    text-align: left;
+    font-size: 1.3em;
+    font-family: 'Merienda', 'Arial', cursive; 
+}
+
+h4 {
+    font-weight: 300;
+    padding: 10px;
+    color: whitesmoke;
+    text-align: left;
+    font-size: 1.5em;
+    font-family: 'Merienda', 'Arial', cursive; 
+}
+
 /* -----------Navbar section--------- */
 
 .topnav {
@@ -179,6 +197,7 @@ th, td {
     text-align: left;
 }
 
+
 /*------------- Contact section------------*/
 
 .contact{
@@ -283,7 +302,7 @@ input[type=submit]:hover {
 /* ---------- Footer section ----------- */
 .footer {
     background-color: black;
-    justify-content: center;
+    /* justify-content: center; */
     /* padding-bottom: 3%; */
 }
 
@@ -304,6 +323,24 @@ input[type=submit]:hover {
     font-size: 1em;
 }
 
+.footer a {
+    float: none;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: all ease 0.5s;
+    font-family: 'Merienda', 'Arial', cursive;
+}
+
+.footer a:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+}
+
+
  /* -------------------------------- */
 
  @media screen and (max-width:750px) {
@@ -320,9 +357,9 @@ input[type=submit]:hover {
         font-size: 14px;
     }
 
-    .about-container p {
+    /* .about-container p {
         font-size: 1em;
-    }
+    } */
 
     .contact-text {
         font-size: 1em;
